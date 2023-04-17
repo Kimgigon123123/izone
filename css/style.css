@@ -1,0 +1,295 @@
+body{
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+
+header{
+    display:flex;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+header img{
+    width: 200px;
+    height: 100px;
+}
+header h2{
+    margin: 10px auto;
+    text-align: center;
+    background-color:pink;
+    border-radius: 50%;
+    line-height: 50px;
+
+}
+
+/* header a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: bisque;
+} */
+header a img{
+    width: 20px;
+    height: 20px;
+}
+
+header img{
+    margin-top: 40px;
+    
+}
+
+header a{
+    margin-top: 40px;
+
+}
+.home{
+    text-align: center;
+}
+
+
+
+.box1{
+    padding-bottom: 30px;
+}
+
+.text1{
+    border: 1px solid black;
+    padding: 30px;
+    position:relative;
+    top:-30px;
+    left: 50px;
+    z-index: 1;
+}
+.text1 a:hover{
+    color: gray;
+}
+
+.box1 img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 2;
+  
+}
+
+.text1 ul li{
+    color: rgb(189, 35, 163)
+}
+.subText1{
+     margin-left: 50px;
+}
+
+.box2{
+    padding-bottom: 30px;
+}
+
+.text2{
+    border: 1px solid black;
+    padding: 30px;
+    position:relative;
+    top:-30px;
+    left: 50px;
+    z-index: 1;
+}
+
+.box2 img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 300px;
+    z-index: 2;
+  
+}
+
+.text2 ul li{
+    color: rgba(252, 173, 219, 0.932);
+}
+.subText2{
+     margin-left: 50px;
+}
+
+.box3{
+    padding-bottom: 30px;
+}
+
+.text3{
+    border: 1px solid black;
+    padding: 30px;
+    position:relative;
+    top:-30px;
+    left: 50px;
+    z-index: 1;
+}
+
+.box3 img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 2;
+  
+}
+
+.text3 ul li{
+    color: rgb(189, 35, 163)
+}
+.subText3{
+     margin-left: 50px;
+}
+
+.box3{
+    padding-bottom: 30px;
+}
+
+.text3{
+    border: 1px solid black;
+    padding: 30px;
+    position:relative;
+    top:-30px;
+    left: 50px;
+    z-index: 1;
+}
+
+.box3 img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+   
+    z-index: 2;
+  
+}
+
+.text3 ul li{
+    color:rgba(245, 176, 27, 0.822);
+}
+.subText3{
+     margin-left: 50px;
+}
+/*----------조유리-----------*/
+.box4{
+    padding-bottom: 30px;
+}
+
+.text4{
+    border: 1px solid black;
+    padding: 30px;
+    position:relative;
+    top:-30px;
+    left: 50px;
+    z-index: 1;
+}
+
+
+
+.text4 ul li{
+    color: rgb(189, 35, 163)
+}
+.subText4{
+     margin-left: 50px;
+}
+
+.box4{
+    padding-bottom: 30px;
+}
+
+.text4{
+    border: 1px solid black;
+    padding: 30px;
+    position:relative;
+    top:-30px;
+    left: 50px;
+    z-index: 1;
+    background-color: pink;
+}
+
+.box4 img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+   
+    z-index: 2;
+  
+}
+
+.text4 ul li{
+    color:white
+}
+.subText4{
+     margin-left: 50px;
+}
+/*--------------------최예나----------*/
+.box5{
+    padding-bottom: 30px;
+}
+
+.text5{
+    border: 1px solid black;
+    padding: 30px;
+    position:relative;
+    top:-30px;
+    left: 50px;
+    z-index: 1;
+}
+
+
+
+.text5 ul li{
+    color: rgb(189, 35, 163)
+}
+.subText5{
+     margin-left: 50px;
+}
+
+.box5{
+    padding-bottom: 30px;
+}
+
+.text5{
+    border: 1px solid black;
+    padding: 30px;
+    position:relative;
+    top:-30px;
+    left: 50px;
+    z-index: 1;
+    background-color: azure;
+   
+}
+
+.box5 img{
+    width: 300px;
+    height: 300px;
+    left: 300px;
+    position: relative;
+   
+    z-index: 2;
+  
+}
+
+.text5 ul li{
+    color:gold
+}
+.subText5{
+     margin-left: 50px;
+}
+/*-------김채원-----*/
+
+/*------------푸터-------*/
+footer{
+    border-top: 1px solid black;
+}
+footer a{
+    margin:5px;
+    font-size: 14px;
+}
+footer ::before{
+    content: '|';
+    margin-left: 30px;
+}
+footer a:nth-child(1)::before{
+    content: "";
+}
+
+footer a:hover{
+    color: gray
+}
