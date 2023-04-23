@@ -4,52 +4,18 @@ body{
 }
 
 
-
-header{
-    display:flex;
-    border-bottom: 1px solid black;
-    margin-bottom: 20px;
+header p{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
 }
 
-header img{
-    width: 200px;
-    height: 100px;
-}
-header h2{
-    margin: 10px auto;
-    text-align: center;
-    background-color:pink;
-    border-radius: 50%;
-    line-height: 50px;
-
-}
-
-/* header a{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: bisque;
-} */
-header a img{
-    width: 20px;
-    height: 20px;
-}
-
-header img{
-    margin-top: 40px;
+   
     
-}
-
-header a{
-    margin-top: 40px;
-
-}
-.home{
-    text-align: center;
-}
+   
 
 
-
+/*-----------------------*/
 .box1{
     padding-bottom: 30px;
 }
@@ -63,7 +29,9 @@ header a{
     z-index: 1;
 }
 .text1 a:hover{
-    color: gray;
+    color: lightgray;
+    transition: all .5s;
+    
 }
 
 .box1 img{
@@ -71,6 +39,7 @@ header a{
     height: 300px;
     position: relative;
     z-index: 2;
+    border-radius: 30%;
   
 }
 
@@ -80,6 +49,7 @@ header a{
 .subText1{
      margin-left: 50px;
 }
+/*---------------원영----------------*/
 
 .box2{
     padding-bottom: 30px;
@@ -92,6 +62,13 @@ header a{
     top:-30px;
     left: 50px;
     z-index: 1;
+    background-color: pink;
+}
+
+.text2 a:hover{
+    color: lightgray;
+    transition: all .5s;
+    
 }
 
 .box2 img{
@@ -100,11 +77,12 @@ header a{
     position: relative;
     left: 300px;
     z-index: 2;
+    border-radius: 30%;
   
 }
 
 .text2 ul li{
-    color: rgba(252, 173, 219, 0.932);
+    color: rgb(100, 77, 81);
 }
 .subText2{
      margin-left: 50px;
@@ -128,6 +106,7 @@ header a{
     height: 300px;
     position: relative;
     z-index: 2;
+    border-radius: 30%;
   
 }
 
@@ -149,13 +128,19 @@ header a{
     top:-30px;
     left: 50px;
     z-index: 1;
+    background-color: rgb(229, 243, 255);
+}
+.text3 a:hover{
+    color: lightgray;
+    transition: all .5s;
+    
 }
 
 .box3 img{
     width: 300px;
     height: 300px;
     position: relative;
-   
+    border-radius: 30%;
     z-index: 2;
   
 }
@@ -207,9 +192,15 @@ header a{
     width: 300px;
     height: 300px;
     position: relative;
-   
+    border-radius: 30%;
     z-index: 2;
   
+}
+
+.text4 a:hover{
+    color: lightgray;
+    transition: all .5s;
+    
 }
 
 .text4 ul li{
@@ -256,18 +247,24 @@ header a{
    
 }
 
+.text5 a:hover{
+    color: lightgray;
+    transition: all .5s;
+    
+}
+
 .box5 img{
     width: 300px;
     height: 300px;
     left: 300px;
     position: relative;
-   
+    border-radius: 30%;
     z-index: 2;
   
 }
 
 .text5 ul li{
-    color:gold
+    color:black;
 }
 .subText5{
      margin-left: 50px;
